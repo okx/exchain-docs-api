@@ -12,7 +12,7 @@ Get gov parameters by type, `deposit / voting / tallying`
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/gov/parameters/deposit
+https://exchainrpc.okex.org/okexchain/v1/gov/parameters/deposit
 ```
 
 #### Request Parameters
@@ -44,7 +44,7 @@ None
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/gov/parameters/voting
+https://exchainrpc.okex.org/okexchain/v1/gov/parameters/voting
 ```
 
 #### Request Parameters
@@ -77,7 +77,7 @@ None
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/gov/parameters/tallying
+https://exchainrpc.okex.org/okexchain/v1/gov/parameters/tallying
 ```
 
 #### Request Parameters

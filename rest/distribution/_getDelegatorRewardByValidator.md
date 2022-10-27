@@ -1,17 +1,17 @@
-## Get tally by proposalId
+## Get delegator rewards from a validator
 
-Get proposer by ID
+Query delegator rewards from a particular validator
 
 #### Rate Limit: 6 requests per second
 
 #### HTTP Request
 
-`GET okexchain/v1/gov/proposals/{ProposalID}/tally`
+`GET okexchain/v1/distribution/delegators/{delegatorAddr}/rewards/{validatorAddr}`
 
 > Request Example
 
 ```wiki
-https://exchainrpc.okex.org/okexchain/v1/gov/proposals/17/tally
+https://exchainrpc.okex.org/okexchain/v1/distribution/delegators/ex17se79kf0c9t5sw0yg0jjdm6et79sy8aradphtg/rewards/exvaloper1q9nct2gska2yutx24starv6s63xz022fdwdgzv
 ```
 
 #### Request Parameters
@@ -20,23 +20,17 @@ None
 > Example Response
 
 ```json
-{
-  "total_power": "165837653241301.605382606344753055",
-  "total_voted_power": "116130784063951.268597087599105663",
-  "yes": "116130784063951.268597087599105663",
-  "abstain": "0.000000000000000000",
-  "no": "0.000000000000000000",
-  "no_with_veto": "0.000000000000000000"
-}
+[
+    {
+        "denom": "okt",
+        "amount": "2.694422051593216614"
+    }
+]
 ```
 
 #### Response Parameters
 
 | **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
 | :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| total_power        | String    | 				| 
-| total_voted_power  | String    | 				|
-| yes                | String    | 				|
-| abstain            | String    | 				|
-| no                 | String    | 				|
-| no_with_veto       | String    | 				|
+|  denom             | String    | 				| 
+|  amount               | String    | 				| 

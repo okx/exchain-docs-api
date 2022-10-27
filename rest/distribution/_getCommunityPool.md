@@ -1,17 +1,17 @@
-## Get tally by proposalId
+## Get amount in community pool
 
-Get proposer by ID
+Query the amount of coins in the community pool
 
 #### Rate Limit: 6 requests per second
 
 #### HTTP Request
 
-`GET okexchain/v1/gov/proposals/{ProposalID}/tally`
+`GET okexchain/v1/distribution/community_pool`
 
 > Request Example
 
 ```wiki
-https://exchainrpc.okex.org/okexchain/v1/gov/proposals/17/tally
+https://exchainrpc.okex.org/okexchain/v1/distribution/community_pool
 ```
 
 #### Request Parameters
@@ -20,23 +20,17 @@ None
 > Example Response
 
 ```json
-{
-  "total_power": "165837653241301.605382606344753055",
-  "total_voted_power": "116130784063951.268597087599105663",
-  "yes": "116130784063951.268597087599105663",
-  "abstain": "0.000000000000000000",
-  "no": "0.000000000000000000",
-  "no_with_veto": "0.000000000000000000"
-}
+[
+    {
+        "denom": "okt",
+        "amount": "2.471826444531520986"
+    }
+]
 ```
 
 #### Response Parameters
 
 | **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
 | :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| total_power        | String    | 				| 
-| total_voted_power  | String    | 				|
-| yes                | String    | 				|
-| abstain            | String    | 				|
-| no                 | String    | 				|
-| no_with_veto       | String    | 				|
+|  denom             | String    | 	community pool denom			| 
+|  amount               | String    | 	community pool amount			| 

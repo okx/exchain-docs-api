@@ -11,7 +11,7 @@ Query information on all validators
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/staking/address
+https://exchainrpc.okex.org/okexchain/v1/staking/address
 ```
 
 #### Request Parameters

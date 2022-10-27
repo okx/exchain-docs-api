@@ -11,7 +11,7 @@ Get votes by proposalId
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/gov/proposals/17/votes
+https://exchainrpc.okex.org/okexchain/v1/gov/proposals/17/votes
 ```
 
 #### Request Parameters

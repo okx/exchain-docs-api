@@ -1,17 +1,17 @@
-## Get tally by proposalId
+## Get withdraw address
 
-Get proposer by ID
+Query delegator's withdraw address
 
 #### Rate Limit: 6 requests per second
 
 #### HTTP Request
 
-`GET okexchain/v1/gov/proposals/{ProposalID}/tally`
+`GET okexchain/v1/distribution/delegators/{{delegatorAddr}}/withdraw_address`
 
 > Request Example
 
 ```wiki
-https://exchainrpc.okex.org/okexchain/v1/gov/proposals/17/tally
+https://exchainrpc.okex.org/okexchain/v1/distribution/delegators/ex17se79kf0c9t5sw0yg0jjdm6et79sy8aradphtg/withdraw_address
 ```
 
 #### Request Parameters
@@ -20,23 +20,11 @@ None
 > Example Response
 
 ```json
-{
-  "total_power": "165837653241301.605382606344753055",
-  "total_voted_power": "116130784063951.268597087599105663",
-  "yes": "116130784063951.268597087599105663",
-  "abstain": "0.000000000000000000",
-  "no": "0.000000000000000000",
-  "no_with_veto": "0.000000000000000000"
-}
+"ex1h0j8x0v9hs4eq6ppgamemfyu4vuvp2sl0q9p3v"
 ```
 
 #### Response Parameters
 
 | **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
 | :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| total_power        | String    | 				| 
-| total_voted_power  | String    | 				|
-| yes                | String    | 				|
-| abstain            | String    | 				|
-| no                 | String    | 				|
-| no_with_veto       | String    | 				|
+|  String             | String    | 	withdraw address			| 

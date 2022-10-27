@@ -11,7 +11,7 @@ Query current staking pool assets
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/staking/pool
+https://exchainrpc.okex.org/okexchain/v1/staking/pool
 ```
 
 #### Request Parameters

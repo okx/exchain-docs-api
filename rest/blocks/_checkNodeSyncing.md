@@ -11,7 +11,7 @@ GET if the node is currently syning with other nodes
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/syncing
+https://exchainrpc.okex.org/okexchain/v1/syncing
 ```
 
 #### Request Parameters

@@ -11,7 +11,7 @@ Get proposer by ID
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/gov/proposals/17/proposer
+https://exchainrpc.okex.org/okexchain/v1/gov/proposals/17/proposer
 ```
 
 #### Request Parameters
