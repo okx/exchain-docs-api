@@ -1,6 +1,6 @@
-## Get distribution params
+## Query distribution params
 
-Query distribution params
+Query distribution params onchain
 
 #### Rate Limit: 6 requests per second
 
@@ -11,7 +11,7 @@ Query distribution params
 > Request Example
 
 ```wiki
-https://www.okex.win/okexchain/v1/distribution/parameters
+https://exchainrpc.okex.org/okexchain/v1/distribution/parameters
 ```
 
 #### Request Parameters
