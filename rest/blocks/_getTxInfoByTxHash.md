@@ -11,7 +11,7 @@ Get Tx information by Tx hash
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/txs/0x9C19D09361F01296EE5FB910634C08C8329414A90965317605B34C209DB19624
+https://exchainrpc.okex.org/okexchain/v1/txs/0x9C19D09361F01296EE5FB910634C08C8329414A90965317605B34C209DB19624
 
 ```
 

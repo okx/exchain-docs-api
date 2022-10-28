@@ -12,7 +12,7 @@ The API endpoints of get user's account_number and sequence
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/auth/accounts/ex1xkl5agjzqnjnptyat2dng2asmx8g5kll7evelk
+https://exchainrpc.okex.org/okexchain/v1/auth/accounts/ex1xkl5agjzqnjnptyat2dng2asmx8g5kll7evelk
 ```
 
 #### Request Parameters

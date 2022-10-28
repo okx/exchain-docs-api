@@ -11,7 +11,7 @@ Query information of a delegator
 > Request Example
 
 ```wiki
-https://www.okex.win/okexchain/v1/staking/delegators/ex17se79kf0c9t5sw0yg0jjdm6et79sy8aradphtg
+https://exchainrpc.okex.org/okexchain/v1/staking/delegators/ex17se79kf0c9t5sw0yg0jjdm6et79sy8aradphtg
 ```
 
 #### Request Parameters

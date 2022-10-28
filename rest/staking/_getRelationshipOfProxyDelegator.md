@@ -12,7 +12,7 @@ Query the proxy relationship on a proxy delegator
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/staking/delegators/ex1pt7xrmxul7sx54ml44lvv403r06clrdk0s8rxy/proxy
+https://exchainrpc.okex.org/okexchain/v1/staking/delegators/ex1pt7xrmxul7sx54ml44lvv403r06clrdk0s8rxy/proxy
 ```
 
 #### Request Parameters

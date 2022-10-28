@@ -11,7 +11,7 @@ Query information on all validators
 > Request Example
 
 ```wiki
-https://www.okex.win/okexchain/v1/staking/validators?status=all
+https://exchainrpc.okex.org/okexchain/v1/staking/validators?status=all
 ```
 
 #### Request Parameters

@@ -11,7 +11,7 @@ Query the unbonding token information of the specified delegator
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/staking/delegators/ex17se79kf0c9t5sw0yg0jjdm6et79sy8aradphtg/unbonding_delegations
+https://exchainrpc.okex.org/okexchain/v1/staking/delegators/ex17se79kf0c9t5sw0yg0jjdm6et79sy8aradphtg/unbonding_delegations
 ```
 
 #### Request Parameters

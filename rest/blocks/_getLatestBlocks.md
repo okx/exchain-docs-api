@@ -12,7 +12,7 @@ Get the latest information on blocks
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/blocks/latest
+https://exchainrpc.okex.org/okexchain/v1/blocks/latest
 
 ```
 

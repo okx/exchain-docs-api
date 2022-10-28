@@ -12,7 +12,7 @@ Query all voting information on a validator
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/staking/validators/exvaloper1q9nct2gska2yutx24starv6s63xz022fdwdgzv/shares
+https://exchainrpc.okex.org/okexchain/v1/staking/validators/exvaloper1q9nct2gska2yutx24starv6s63xz022fdwdgzv/shares
 ```
 
 #### Request Parameters

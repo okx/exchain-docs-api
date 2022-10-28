@@ -12,7 +12,7 @@ Get information on by block height
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/blocks/2322601
+https://exchainrpc.okex.org/okexchain/v1/blocks/2322601
 ```
 
 #### Request Parameters

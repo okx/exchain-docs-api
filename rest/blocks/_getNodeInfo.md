@@ -11,7 +11,7 @@ Get Information about the connected node
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/node_info
+https://exchainrpc.okex.org/okexchain/v1/node_info
 ```
 
 #### Request Parameters

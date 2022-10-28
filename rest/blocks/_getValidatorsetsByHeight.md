@@ -11,7 +11,7 @@ Get the latest validator set
 > Request Example
 
 ```wiki
-https://www.okex.win/okexchain/v1/validatorsets/2697221
+https://exchainrpc.okex.org/okexchain/v1/validatorsets/2697221
 ```
 
 #### Request Parameters

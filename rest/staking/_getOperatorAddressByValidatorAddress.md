@@ -11,7 +11,7 @@ Query corresponding operator_address through validator_address
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/staking/address/B8586789B5681169A6CDC670775AC83FF560AA2F/validator_address
+https://exchainrpc.okex.org/okexchain/v1/staking/address/B8586789B5681169A6CDC670775AC83FF560AA2F/validator_address
 ```
 
 #### Request Parameters

@@ -1,17 +1,17 @@
-## Get tally by proposalId
+## Get outstanding for a validator
 
-Get proposer by ID
+Query distribution outstanding (un-withdrawn) rewards for a validator and all their delegations
 
 #### Rate Limit: 6 requests per second
 
 #### HTTP Request
 
-`GET okexchain/v1/gov/proposals/{ProposalID}/tally`
+`GET okexchain/v1/distribution/validators/{{validatorAddr}}/outstanding_rewards`
 
 > Request Example
 
 ```wiki
-https://exchainrpc.okex.org/okexchain/v1/gov/proposals/17/tally
+https://exchainrpc.okex.org/okexchain/v1/distribution/validators/exvaloper1q9nct2gska2yutx24starv6s63xz022fdwdgzv/outstanding_rewards
 ```
 
 #### Request Parameters
@@ -20,23 +20,17 @@ None
 > Example Response
 
 ```json
-{
-  "total_power": "165837653241301.605382606344753055",
-  "total_voted_power": "116130784063951.268597087599105663",
-  "yes": "116130784063951.268597087599105663",
-  "abstain": "0.000000000000000000",
-  "no": "0.000000000000000000",
-  "no_with_veto": "0.000000000000000000"
-}
+[
+    {
+        "denom": "okt",
+        "amount": "3.150937542414329105"
+    }
+]
 ```
 
 #### Response Parameters
 
 | **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
 | :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| total_power        | String    | 				| 
-| total_voted_power  | String    | 				|
-| yes                | String    | 				|
-| abstain            | String    | 				|
-| no                 | String    | 				|
-| no_with_veto       | String    | 				|
+|  denom             | String    | 				| 
+|  amount               | String    | 				| 

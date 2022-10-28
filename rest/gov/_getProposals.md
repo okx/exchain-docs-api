@@ -12,7 +12,7 @@ Get the all proposals
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/gov/proposals
+https://exchainrpc.okex.org/okexchain/v1/gov/proposals
 
 ```
 

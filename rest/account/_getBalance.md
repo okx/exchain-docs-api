@@ -14,10 +14,10 @@ By default, just show currencies partially, you can use parameter of `show=all` 
 > Request Example
 
 ```wiki
-https://www.okex.com/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv
-https://www.okex.com/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv?show=partial
-https://www.okex.com/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv?show=all
-https://www.okex.com/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv?symbol=btc
+https://exchainrpc.okex.org/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv
+https://exchainrpc.okex.org/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv?show=partial
+https://exchainrpc.okex.org/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv?show=all
+https://exchainrpc.okex.org/okexchain/v1/accounts/ex1508d7eq592kg2lh9d46xvv3r4sm7gm8we5fakv?symbol=btc
 
 ```
 
