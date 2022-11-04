@@ -16,21 +16,21 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/contract/ex1qg5ega6dykkxc307y25pec
 
 #### Request Parameters
 
-| **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                     |
-| :------------ | :------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| contractAddr      | String   | Yes           |  contract address required|
-| query      | String   | Yes           | request data required base64 code |
-| encoding | string | Yes | Must use base64| 
+| **Parameter** | **Type** | **Required** | **Description**                    |
+|:--------------|:---------|:-------------|:-----------------------------------|
+| contractAddr  | String   | Yes          | contract address required          |
+| query         | String   | Yes          | request data required base64 code  |
+| encoding      | string   | Yes          | Must use base64                    | 
 
 > Example Response
 
 ```shell
 {"smart":"eyJiYWxhbmNlIjoiOTk5OTk5MDAifQ=="} 
-//eyJiYWxhbmNlIjoiOTk5OTk5MDAifQ== represent {"balance":"99999900"}
+# eyJiYWxhbmNlIjoiOTk5OTk5MDAifQ== represent {"balance":"99999900"}
 ```
 
 #### Response Parameters
 
-| **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
-| :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  smart             | string    | Base64 Code				|
+| **Parameter**       | **Type**  | **Description** |
+|:--------------------|:----------|:----------------|
+| smart               | string    | Base64 Code     |

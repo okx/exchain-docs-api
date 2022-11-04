@@ -16,9 +16,9 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/contract/ex14hj2tavq8fpesdwxxcu44r
 
 #### Request Parameters
 
-| **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                     |
-| :------------ | :------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| contractAddr      | String   | Yes           | |
+| **Parameter**     | **Type** | **Required** | **Description**  |
+|:------------------| :------- |:-------------|:-----------------|
+| contractAddr      | String   | Yes          |                  |
 
 > Example Response
 
@@ -33,9 +33,9 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/contract/ex14hj2tavq8fpesdwxxcu44r
 
 #### Response Parameters
 
-| **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
-| :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  address             | String    | 	contract address 			| 
-|  code_id               | int64    | 		code id		| 
-|  creator        | String    | 		the creator of  contract 		| 
-|  label| String    | 		contract label		|
+| **Parameter**        | **Type** | **Description**                                                                                                                                                                                                                                                      |
+|:---------------------|:---------| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| address              | String   | 	contract address 			| 
+| code_id              | int64    | 		code id		| 
+| creator              | String   | 		the creator of  contract 		| 
+| label                | String   | 		contract label		|

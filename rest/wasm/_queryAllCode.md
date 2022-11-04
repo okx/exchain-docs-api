@@ -15,14 +15,14 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code?page=1&count_total=true&rever
 ```
 
 #### Request Parameters
-| **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                                   |
-|:--------------|:---------|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| page          | Uint64   | No           |                                                                                                                                                                                                                                   |
-| page_key      | String   | No           | page_key is a value returned in PageResponse.next_key to begin querying the next page most efficiently. Only one of offset or key should be set.                                                                                  |
-| offset        | Uint64   | No           | offset is a numeric offset that can be used when page_key is unavailable. It is less efficient than using key. Only one of offset or key should be set.                                                                           |
-| limit         | Uint64   | No           | limit is the total number of results to be returned in the result page. If left empty it will default to a value to be set by each app.                                                                                           |
-| count_total   | Bool     | No           | count_total is set to true to indicate that the result set should include a count of the total number of items available for pagination in UIs. count_total is only respected when offset is used. It is ignored when key is set. |
-| reverse       | Bool     | No           | reverse is set to true if results are to be returned in the descending order.                                                                                                                                                     |
+| **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                                                 |
+|:--------------|:---------|:-------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| page          | Uint64   | No           |                                                                                                                                                                                                                                                 |
+| page_key      | String   | No           | `page_key` is a value returned in `PageResponse.next_key` to begin querying the next page most efficiently. Only one of `offset` or `page_key` should be set.                                                                                   |
+| offset        | Uint64   | No           | `offset` is a numeric offset that can be used when `page_key` is unavailable. It is less efficient than using key. Only one of `offset` or `page_key` should be set.                                                                            |
+| limit         | Uint64   | No           | `limit` is the total number of results to be returned in the result page. If left empty it will default to a value to be set by each app.                                                                                                       |
+| count_total   | Bool     | No           | `count_total` is set to true to indicate that the result set should include a count of the total number of items available for pagination in UIs. `count_total` is only respected when `offset` is used. It is ignored when `page_key` is set.  |
+| reverse       | Bool     | No           | `reverse` is set to true if results are to be returned in the descending order.                                                                                                                                                                 |
 **Once page is set, page_key or offset cannot be set.**
 > Example Response
 
@@ -56,14 +56,14 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code?page=1&count_total=true&rever
 
 #### Response Parameters
 
-| **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
-| :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  code_infos             | Array Object    | 	the array code info			| 
-|  code_info.id             | Int64    | 	code id			| 
-|  code_info.creator               | String    | 	the creator of code			| 
-|  code_info.data_hash        | String    | 		the hash of code		| 
-|  code_info.instantiate_permission| Object    | 	the permission of code			| 
-|  code_info.instantiate_permission.permission | String    | 	 permission type 			|
-|  pagination               | Object    | 	page response	parameters		| 
-|  pagination.next_key      | String    | 		the next page start key		|  
-|  pagination.total               | String    | 	it's a number format			| 
+| **Parameter**                                | **Type**     | **Description**             |
+|:---------------------------------------------|:-------------|:----------------------------|
+| code_infos                                   | Array Object | 	the array code info			     | 
+| code_info.id                                 | Int64        | 	code id			                 | 
+| code_info.creator                            | String       | 	the creator of code			     | 
+| code_info.data_hash                          | String       | 		the hash of code		        | 
+| code_info.instantiate_permission             | Object       | 	the permission of code			  | 
+| code_info.instantiate_permission.permission  | String       | 	 permission type 			       |
+| pagination                                   | Object       | 	page response	parameters		 | 
+| pagination.next_key                          | String       | 		the next page start key		 |  
+| pagination.total                             | String       | 	it's a number format			    | 

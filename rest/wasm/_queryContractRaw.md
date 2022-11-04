@@ -16,18 +16,18 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/contract/ex1qg5ega6dykkxc307y25pec
 
 #### Request Parameters
 
-| **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                     |
-| :------------ | :------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| contractAddr      | String   | Yes           |  contract address required|
-| key      | String   | Yes           | queried key value required |
-| encoding | string | Yes | Must use hex beacuse key is hex| 
+| **Parameter** | **Type** | **Required** | **Description**                   |
+|:--------------|:---------|:-------------|:----------------------------------|
+| contractAddr  | String   | Yes          | contract address required         |
+| key           | String   | Yes          | queried key value required        |
+| encoding      | string   | Yes          | Must use hex because `key` is hex | 
 
 > Example Response
 
 Response is Base64
 ```shell
 "eyJuYW1lIjoibXkgdGVzdCB0b2tlbiIsInN5bWJvbCI6Ik1UVCIsImRlY2ltYWxzIjoxMH0="
-//base64Code represent{"name":"my test token","symbol":"MTT","decimals":10}
+# base64Code represent{"name":"my test token","symbol":"MTT","decimals":10}
 ```
 
 #### Response Parameters
