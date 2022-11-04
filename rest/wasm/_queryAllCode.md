@@ -11,7 +11,7 @@ Query all contract codes
 > Request Example
 
 ```wiki
-https://exchainrpc.okex.org/okexchain/v1/wasm/code
+https://exchainrpc.okex.org/okexchain/v1/wasm/code?page=1&count_total=true&reverse=true&limit=2
 ```
 
 #### Request Parameters
@@ -30,6 +30,14 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code
 {
   "code_infos": [
     {
+      "id": "2",
+      "creator": "ex1h0j8x0v9hs4eq6ppgamemfyu4vuvp2sl0q9p3v",
+      "data_hash": "DCE5CE229B1FE766ABD20AA0F0126D3FA9CB63F9C18C78192E14BAE51634304E",
+      "instantiate_permission": {
+        "permission": "Everybody"
+      }
+    },
+    {
       "id": "1",
       "creator": "ex1h0j8x0v9hs4eq6ppgamemfyu4vuvp2sl0q9p3v",
       "data_hash": "13A1FC994CC6D1C81B746EE0C0FF6F90043875E0BF1D9BE6B7D779FC978DC2A5",
@@ -39,10 +47,11 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code
     }
   ],
   "pagination": {
-    "next_key": "AAAAAAAAAAI=",
-    "total": "2"
+    "next_key": "AAAAAAAAAAM=",
+    "total": "5"
   }
 }
+
 ```
 
 #### Response Parameters
