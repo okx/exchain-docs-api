@@ -6,18 +6,18 @@ Query all corresponding contracts of specified codeid
 
 #### HTTP Request
 
-`GET okexchain/v1/wasm/code`
+`GET okexchain/v1/wasm/code/{codeID}/contracts`
 
 > Request Example
 
 ```wiki
 https://exchainrpc.okex.org/okexchain/v1/wasm/code
 ```
-coderID
+
 #### Request Parameters
 | **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                                   |
 |:--------------|:---------|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| coderID       | String   | Yes           |                                                                                                                                                                                                                                   |
+| codeID       | String   | Yes           |                                                                                                                                                                                                                                   |
 | page          | Uint64   | No           |                                                                                                                                                                                                                                   |
 | page_key      | String   | No           | page_key is a value returned in PageResponse.next_key to begin querying the next page most efficiently. Only one of offset or key should be set.                                                                                  |
 | offset        | Uint64   | No           | offset is a numeric offset that can be used when page_key is unavailable. It is less efficient than using key. Only one of offset or key should be set.                                                                           |

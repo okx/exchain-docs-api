@@ -1,6 +1,6 @@
-## Query all corresponding contracts of specified codeid
+## Query contract status
 
-Query all corresponding contracts of specified codeid
+Query contract all state data
 
 #### Rate Limit: 6 requests per second
 

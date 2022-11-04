@@ -1,6 +1,6 @@
-## Query all corresponding contracts of specified codeid
+##  Query contract history information
 
-Query all corresponding contracts of specified codeid
+Query contract history information
 
 #### Rate Limit: 6 requests per second
 
