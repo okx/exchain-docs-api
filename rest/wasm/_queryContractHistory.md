@@ -13,7 +13,7 @@ Query contract history information
 ```wiki
 https://exchainrpc.okex.org/okexchain/v1/wasm/contract/ex1ufs3tlq4umljk0qfe8k5ya0x6hpavn897u2cnf9k0en9jr7qarqqy2pl6c/history?page=1&count_total=true&reverse=true&limit=2
 ```
-coderID
+
 #### Request Parameters
 | **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                                   |
 |:--------------|:---------|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
