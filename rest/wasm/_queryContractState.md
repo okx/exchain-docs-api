@@ -25,7 +25,7 @@ coderID
 | count_total   | Bool     | No           | count_total is set to true to indicate that the result set should include a count of the total number of items available for pagination in UIs. count_total is only respected when offset is used. It is ignored when key is set. |
 | reverse       | Bool     | No           | reverse is set to true if results are to be returned in the descending order.                                                                                                                                                     |
 
-**Once page is set, page_key or offset cannot be set.* 
+**Once page is set, page_key or offset cannot be set.** 
 > Example Response
 
 ```json
