@@ -1,6 +1,6 @@
-## Query all  codes
+## Query all codes
 
-Query all  contract codes
+Query all contract codes
 
 #### Rate Limit: 6 requests per second
 
