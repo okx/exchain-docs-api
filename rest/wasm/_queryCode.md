@@ -20,7 +20,7 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code/1
 
 | **Parameter** | **Type** | **Required** | **Description**                                                                                                                                                                                                     |
 | :------------ | :------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| coderID      | String   | Yes           | |
+| codeID      | String   | Yes           | |
 
 > Example Response
 
@@ -40,9 +40,9 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code/1
 
 | **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
 | :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  id             | int64    | 				| 
-|  creator               | String    | 				| 
-|  data_hash        | String    | 				| 
-|  instantiate_permission| Object    | 				| 
-|  data    | String    | 				| 
-|  Object.permission               | String    | 				| 
+|  id             | Int64    | 		code id		| 
+|  creator               | String    | 		the creator of code		| 
+|  data_hash        | String    | 		the hash of code		| 
+|  instantiate_permission| Object    | 		the permission of code				|
+|  instantiate_permission.permission               | String    | 		permission type		|
+|  data    | String    | 	code data			| 

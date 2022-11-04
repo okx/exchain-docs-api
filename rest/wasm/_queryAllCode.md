@@ -23,6 +23,7 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code
 | limit         | Uint64   | No           | limit is the total number of results to be returned in the result page. If left empty it will default to a value to be set by each app.                                                                                           |
 | count_total   | Bool     | No           | count_total is set to true to indicate that the result set should include a count of the total number of items available for pagination in UIs. count_total is only respected when offset is used. It is ignored when key is set. |
 | reverse       | Bool     | No           | reverse is set to true if results are to be returned in the descending order.                                                                                                                                                     |
+**Once page is set, page_key or offset cannot be set.*
 > Example Response
 
 ```json
@@ -48,9 +49,12 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/code
 
 | **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
 | :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  id             | int64    | 				| 
-|  creator               | String    | 				| 
-|  data_hash        | String    | 				| 
-|  instantiate_permission| Object    | 				| 
-|  delegator_address    | String    | 				| 
-|  shares               | String    | 				| 
+|  code_infos             | Array Object    | 	the array code info			| 
+|  code_info.id             | Int64    | 	code id			| 
+|  code_info.creator               | String    | 	the creator of code			| 
+|  code_info.data_hash        | String    | 		the hash of code		| 
+|  code_info.instantiate_permission| Object    | 	the permission of code			| 
+|  code_info.instantiate_permission.permission | String    | 	 permission type 			|
+|  pagination               | Object    | 	page response	parameters		| 
+|  pagination.next_key      | String    | 		the next page start key		|  
+|  pagination.total               | String    | 	it's a number format			| 

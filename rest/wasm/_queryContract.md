@@ -35,7 +35,7 @@ https://exchainrpc.okex.org/okexchain/v1/wasm/contract/ex14hj2tavq8fpesdwxxcu44r
 
 | **Parameter** | **Type** | **Description**                                                                                                                                                                                                                                                      |
 | :----------------- | :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  address             | String    | 				| 
-|  code_id               | int64    | 				| 
-|  creator        | String    | 				| 
-|  label| String    | 				|
+|  address             | String    | 	contract address 			| 
+|  code_id               | int64    | 		code id		| 
+|  creator        | String    | 		the creator of  contract 		| 
+|  label| String    | 		contract label		|
